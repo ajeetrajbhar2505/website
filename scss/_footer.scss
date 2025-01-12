@@ -34,6 +34,9 @@
 		}
 	}
 	.footer_social {
+		display: flex;
+		justify-content: center;
+		gap: 27px;
 		text-align: center;
 		margin: 25px 0px 30px;
 		a {
@@ -62,6 +65,7 @@
 		}
 	}
 }
+
 
 /* End Footer Area css
 ============================================================================================ */
