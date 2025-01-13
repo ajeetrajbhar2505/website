@@ -341,15 +341,20 @@ button:focus {
       @media (max-width: 1480px) {
         .home_banner_area .banner_inner .home_right_img img {
           max-width: 100%;
+          padding-top: unset !important;
           height: auto; } }
       @media (max-width: 991px) {
         .home_banner_area .banner_inner .home_right_img {
-          display: none; } }
+          padding-top: 100px; } }
     .home_banner_area .banner_inner .col-lg-7 {
       vertical-align: middle;
       align-self: center; }
     .home_banner_area .banner_inner .banner_content {
       text-align: left; }
+      @media (max-width: 1200px) {
+        .home_banner_area .banner_inner .banner_content h3:after {
+        display: none;
+        } }
       @media (max-width: 991px) {
         .home_banner_area .banner_inner .banner_content {
           margin-top: 50px; } }
@@ -365,6 +370,7 @@ button:focus {
           top: 50%;
           left: 23%;
           background: #000000; }
+       
           @media (max-width: 575px) {
             .home_banner_area .banner_inner .banner_content h3:after {
               display: none; } }
@@ -2985,8 +2991,7 @@ h6 {
   .home_banner_area {
     margin-top: 0; }
 
-  .home_right_img {
-    display: none; }
+
 
   /* Footer Area css
   ============================================================================================ */
@@ -3052,8 +3057,7 @@ h6 {
     min-height: 300px;
  }
 
-    .home_banner_area .banner_inner .banner_content .primary_btn {
-      display: none; }
+
 
   .blog_info.text-right {
     text-align: left !important;
