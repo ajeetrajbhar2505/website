@@ -3140,6 +3140,12 @@ h6 {
 
   .pad_btm {
     padding-bottom: 70px; } }
+    @media (max-width: 600px) {
+
+      .home_banner_area .banner_inner .banner_content {
+        padding: 30px 15px;
+        margin-top: 0px; }
+      }
 @media (max-width: 480px) {
   .header_area .navbar-collapse {
     max-height: 250px; }
