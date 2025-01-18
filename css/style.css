@@ -84,9 +84,7 @@ button:focus {
 
 .section_gap_bottom {
   padding-bottom: 200px; }
-  @media (max-width: 1199px) {
-    .section_gap_bottom {
-      padding-bottom: 80px; } }
+
 
 /* Main Title Area css
 ============================================================================================ */
@@ -1874,6 +1872,10 @@ h6 {
 
 .input-group-icon .single-input {
   padding-left: 45px; }
+
+  .img-fluid{
+    height: 650px;
+  }
 
 .single-textarea {
   display: block;
