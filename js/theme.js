@@ -2,9 +2,7 @@
 	'use strict';
 
 	var nav_offset_top = $('header').height() + 50;
-	/*-------------------------------------------------------------------------------
-	  Navbar 
-	-------------------------------------------------------------------------------*/
+
 
 	//* Navbar Fixed
 	function navbarFixed() {
@@ -21,18 +19,6 @@
 	}
 	navbarFixed();
 
-	/*----------------------------------------------------*/
-	/*  MailChimp Slider
-    /*----------------------------------------------------*/
-	function mailChimp() {
-		$('#mc_embed_signup').find('form').ajaxChimp();
-	}
-	mailChimp();
-
-	$('select').niceSelect();
-	/* ---------------------------------------------
-            Isotope js Starts
-         --------------------------------------------- */
 	$(window).on('load', function() {
 		$('.portfolio-filter ul li').on('click', function() {
 			$('.portfolio-filter ul li').removeClass('active');
@@ -55,9 +41,9 @@
 		}
 	});
 
-	/*----------------------------------------------------*/
+	
 	/* Start Magnific Pop Up
-	/*----------------------------------------------------*/
+	
 	if ($('.img-gal').length > 0) {
 		$('.img-gal').magnificPopup({
 			type: 'image',
@@ -66,13 +52,13 @@
 			}
 		});
 	}
-	/*----------------------------------------------------*/
+	
 	/*  End  Magnific Pop Up
-	/*----------------------------------------------------*/
+	
 
-	/*----------------------------------------------------*/
+	
 	/*  Testimonials Slider
-    /*----------------------------------------------------*/
+    
 	function testimonials_slider() {
 		if ($('.testi_slider').length) {
 			$('.testi_slider').owlCarousel({
@@ -96,9 +82,9 @@
 	}
 	testimonials_slider();
 
-	/*----------------------------------------------------*/
+	
 	/*  Google map js
-    /*----------------------------------------------------*/
+    
 
 	if ($('#mapBox').length) {
 		var $lat = $('#mapBox').data('lat');
