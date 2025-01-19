@@ -164,7 +164,7 @@ button:focus {
   .primary_btn span {
     padding: 0 42px; }
   .primary_btn.tr-bg {
-    background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #4458dc, #854fee);
+    background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #4458dc, #854fee) ;
     border: 2px solid transparent;
     color: #222222;
     box-shadow: none; }
@@ -3257,6 +3257,12 @@ a:hover{
   img {
       width: 100%;
       height: auto; /* Maintain aspect ratio */
+  }
+}
+
+@media (max-width: 768px) {
+  .gap-2 {
+    gap: 10px;
   }
 }
 
