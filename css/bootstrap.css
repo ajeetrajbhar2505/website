@@ -609,6 +609,9 @@ pre code {
     .container {
         max-width: 1440px
     }
+    .brand_area_container{
+        max-width: 1240px
+    }
 }
 
 .container-fluid {
