@@ -2482,8 +2482,6 @@ margin: 50px 0;
   }
   .feature_inner{
     display: flex;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
     gap:20px;
     justify-content: center;
 }
