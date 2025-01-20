@@ -1853,9 +1853,6 @@ h6 {
 .input-group-icon .single-input {
   padding-left: 45px; }
 
-  .img-fluid{
-    height: 650px;
-  }
 
 .single-textarea {
   display: block;
@@ -2488,7 +2485,7 @@ margin: 50px 0;
   .card {
     scroll-snap-align: center;
     box-sizing: border-box;
-    padding: 20px 30px;
+    padding: 30px 30px;
     flex-shrink: 0;
     width: 300px;
     background-color: #fff;
@@ -2551,7 +2548,6 @@ margin: 50px 0;
     .client-info {
       padding-top: 50px; } }
   .client-info:before {
-    content: '';
     position: absolute;
     top: -25px;
     left: -50px;
@@ -2581,7 +2577,6 @@ margin: 50px 0;
     margin-left: 20px; }
 
 .call-now {
-  padding-top: 50px;
   text-align: left;
   margin-bottom: 40px; }
   @media (max-width: 575px) {
